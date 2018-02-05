@@ -33,11 +33,13 @@ import { ApiService } from './../../../services/api';
                   <div class="row">
                      <div class="col-md-6">
                         <div class="md-form">
+                        <input class="form-control" id="txtusername" disabled="" mdbactive="" placeholder="" type="text">
                            <label for="form21" class="">User Name :</label>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="md-form">
+                        <input class="form-control" id="txtemail" disabled="" mdbactive="" placeholder="" type="text">
                            <label for="form22" class="">Email :</label>
                         </div>
                      </div>
@@ -45,45 +47,28 @@ import { ApiService } from './../../../services/api';
                   <div class="row">
                      <div class="col-md-6">
                         <div class="md-form">
+                           <input class="form-control" id="txtmobile" disabled="" mdbactive="" placeholder="" type="text">
                            <label for="form21" class="">Mobile :</label>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="md-form">
+                           <input class="form-control" id="txttype" disabled="" mdbactive="" placeholder="" type="text">
                            <label for="form22" class="">Type :</label>
                         </div>
                      </div>
                   </div>
-                  <div class="row">
-                     <div class="col-md-4">
-                        <div class="md-form">
-                           <input class="form-control" id="form11" placeholder="johnDoe78" type="text" disabled="">
-                           <label class="active" for="form11">Username (can't be changed)</label>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="md-form">
-                           <input class="form-control" id="form12" placeholder="John" type="text">
-                           <label class="active" for="form12">First Name</label>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="md-form">
-                           <input class="form-control" id="form13" placeholder="Doe" type="text">
-                           <label class="active" for="form13">Last Name</label>
-                        </div>
-                     </div>
-                  </div>
+
                   <div class="row">
                      <div class="col-md-6">
                         <div class="md-form">
-                           <input class="form-control" id="form21" mdbactive="" placeholder="" type="text">
+                           <input class="form-control" id="txtaddress1" mdbactive="" placeholder="" type="text">
                            <label for="form21" class="">Address line 1</label>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="md-form">
-                           <input class="form-control" id="form22" mdbactive="" placeholder="" type="text">
+                           <input class="form-control" id="txtaddress2" mdbactive="" placeholder="" type="text">
                            <label for="form22" class="">Address line 2</label>
                         </div>
                      </div>
@@ -105,6 +90,48 @@ import { ApiService } from './../../../services/api';
                         <div class="md-form">
                            <input class="form-control" id="form33" mdbactive="" type="text">
                            <label for="form33" class="">Country</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="md-form">
+                           <input class="form-control" id="txtcourse" disabled="" mdbactive="" placeholder="Select Coures" type="text">
+                           <label for="form21" class="">Coures :</label>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="md-form">
+                           <input class="form-control" id="txttrainer" disabled="" mdbactive="" placeholder="Trainer" type="text">
+                           <label for="form22" class="">Trainer :</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="md-form">
+                        <input class="form-control" id="txtbatch" disabled="" mdbactive="" placeholder="Select Batch" type="text">
+                        <label for="form22" class="">Batch :</label>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="md-form">
+                           <input class="form-control" id="txttime" disabled="" mdbactive="" placeholder="Timing" type="text">
+                           <label for="form22" class="">Timing :</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="md-form">
+                           <input class="form-control" id="txtfees" disabled="" mdbactive="" placeholder="Fees" type="text">
+                           <label for="form21" class="">Fees :</label>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="md-form">
+                           <input class="form-control" id="txtstatus" disabled="" mdbactive="" placeholder="Status" type="text">
+                           <label for="form22" class="">status :</label>
                         </div>
                      </div>
                   </div>
