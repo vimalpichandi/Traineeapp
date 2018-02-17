@@ -104,7 +104,8 @@ import { ApiService } from './../../../services/api';
                       <td >{{records[key].email}}</td>
                       <td >{{records[key].mobile}}</td>
                       <td >{{records[key].type}}</td>
-                      <td ><a [routerLink]="['/userdetails/userdetails']"> <i class="fa fa-address-card-o" aria-hidden="true"></i></a>
+                      <td ><a [routerLink]="['/userdetails/userdetails']"> <i class="fa fa-upload" aria-hidden="true"></i></a>
+                      <a [routerLink]="['/userprofile/userprofile']"> <i class="fa fa-address-card-o" aria-hidden="true"></i></a>
                          <a (click) = "deleteuserslist(records[key].email)" ><i class="fa fa-trash" aria-hidden="true"></i></a>
                       </td>
                    </tr>
@@ -121,8 +122,6 @@ import { ApiService } from './../../../services/api';
     title = 'New User Create Page';
     records:any;
 
-
-
       constructor(public api:ApiService){
       //  console.log(this.regModel);
       }
@@ -132,13 +131,12 @@ import { ApiService } from './../../../services/api';
     }
 
       arrayKeys(obj:any){
+        //console.log("----",obj);
         return Object.keys(obj);
       }
 // Register User
   formRegi(regiForm:any){
         if(regiForm.valid){
-        //  alert('Submitted....');
-        //console.log('Submitted',regiForm.value);
            this.api.register(regiForm.value).then( (res:any)=>{
             //  console.log('resss',res);
             if(res.status=="success"){

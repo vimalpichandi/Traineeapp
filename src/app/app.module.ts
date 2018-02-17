@@ -33,6 +33,8 @@ import { trainerregisterwithattendancelistpage } from './pages/attendance/traine
 
 import { usercreatelistpage } from './pages/management/usercreate/usercreate.page';
 import { userlistdetailspage } from './pages/management/usercreate/userdetails.page';
+import { userlistprofilepage } from './pages/management/usercreate/userprofile.page';
+
 import { traineelistpage } from './pages/trainer/traineealllist.page';
 import { registernewtraineepagelist } from './pages/registration/register.newtrainee';
 
@@ -58,6 +60,7 @@ const appRoutes: Routes = [
  // Management
  { path: 'createuser/newuser', component:usercreatelistpage },
  { path: 'userdetails/userdetails', component:userlistdetailspage },
+ { path: 'userprofile/userprofile', component:userlistprofilepage },
 
  //  { path: '', component:  },
  { path: 'trainee/traineelist', component: traineelistpage },
@@ -79,7 +82,7 @@ const appRoutes: Routes = [
     ) ],
   declarations: [ AppComponent,
     mainpagelist, navbarheader,loginpagelist,traineeloginpagelist, trainerloginpagelist,
-    usercreatelistpage,userlistdetailspage,
+    usercreatelistpage,userlistdetailspage,userlistprofilepage,
     coursecreatelistpage,coursedetailslistpage,
     admindashboardlistpage, trainerdashboardlistpage, studentdashboardlistpage,
     trainerattendancelistpage, trainerregisterwithattendancelistpage,

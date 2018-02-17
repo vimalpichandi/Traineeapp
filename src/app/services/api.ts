@@ -24,21 +24,36 @@ export class ApiService{
     viewUserslist(data:any){
       return this.post('admin/viewUserslist',data);
     }
+    updateUserlist(data:any){
+      return this.post('admin/updateUserlist',data);
+    }
+    updateUserdetails(data:any){
+      return this.post('admin/updateUserdetails',data);
+    }
+    profileUserlist(data:any){
+      return this.post('admin/userlistprofile',data);
+    }
     deleteUserslist(data:any){
       console.log("API- console");
       return this.post('admin/deleteUserslist',data);
     }
 
-// New Course
-newCourse(data:any){
-  return this.post('admin/newcourse',data);
-}
-viewCourselist(data:any){
-  return this.post('admin/viewcourselist',data);
-}
-deleteCourselist(data:any){
-  return this.post('admin/deletecourselist',data);
-}
+    trainerlists(data:any){
+      return this.post('admin/trainerlists',data);
+    }
+
+
+  // New Course
+  newCourse(data:any){
+    return this.post('admin/newcourse',data);
+  }
+  viewCourselist(data:any){
+    return this.post('admin/viewcourselist',data);
+  }
+
+  deleteCourselist(data:any){
+    return this.post('admin/deletecourselist',data);
+  }
 
   trainerlogin(data:any){
     return this.post('trainer/trainerlogin',data);

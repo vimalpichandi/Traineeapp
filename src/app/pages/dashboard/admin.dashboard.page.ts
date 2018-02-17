@@ -65,7 +65,7 @@ import { Component } from '@angular/core';
   <!--/.Registration-->
   </div>
   <div class="col-xl-3 col-md-6 mb-r">
-  <!--Assessment-->
+  <!--Course-->
   <div class="card card-body flex-center">
       <h5>Course</h5>
       <div class="card-circle">
@@ -73,7 +73,17 @@ import { Component } from '@angular/core';
           <i class="fa fa-slideshare light-blue-text"></i></a>
       </div>
   </div>
-  <!--/.Assessment-->
+  <!--/.Coures-->
+  </div>
+  <div class="col-xl-3 col-md-6 mb-r">
+  <!--Report-->
+  <div class="card card-body flex-center">
+      <h5>Reports</h5>
+      <div class="card-circle">
+          <i class="fa fa-bar-chart light-blue-text"></i> 
+      </div>
+  </div>
+  <!--/.Coures-->
   </div>
 
   </div>
