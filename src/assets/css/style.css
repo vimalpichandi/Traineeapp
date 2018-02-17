@@ -3,4 +3,16 @@
 select {
 
     display: inline!important;
-}
+    background-color: transparent;
+        border: none!important;
+        border-bottom: 1px solid #bdbdbd!important;;
+        border-radius: 0;
+        outline: 0;
+        height: 2.1rem;
+        width: 100%;
+        font-size: 1rem;
+        box-shadow: none;
+        box-sizing: content-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+      }
